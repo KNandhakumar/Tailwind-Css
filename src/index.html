@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark"> 
 <head>
     <!-- font-osWorld -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,7 +14,7 @@
     <title>Tailwind Basics</title>
     <link href="./output.css" rel="stylesheet">
 </head>
-<body class="bg-slate-900">
+<body class="dark:bg-black">
     <!-- Typography -->
     <!-- <p class="font-sans">This text uses font family</p>
     <p class="font-bold">This text uses font family</p>
@@ -105,13 +105,16 @@
     </div> -->
 
     <!-- Grid -->
-    <div class="container grid grid-cols-3 gap-1">
+    <!-- <div class="container grid grid-cols-3 gap-1">
         <div class="bg-pure-red flex-1">Content 1</div>
         <div class="bg-pure-red flex-1">Content 2</div>
         <div class="bg-pure-red flex-1">Content 3</div>
         <div class="bg-pure-red flex-1">Content 4</div>
         <div class="bg-pure-red flex-1">Content 5</div>
         <div class="bg-pure-red flex-1">Content 6</div>
-    </div>
+    </div> -->
+
+    <!-- Dark mode -->
+    <button class="text-xl bg-pure-red text-white p-2 rounded-md m-10 hover:bg-black hover:text-pure-red">Click me</button>
 </body>
 </html>
