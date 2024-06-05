@@ -4,7 +4,11 @@ module.exports = {
     "./src/**/*.{html,js}"
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors:{ // customize colors
+        'pure-red': '#ff0000'
+      }
+    },
     fontFamily: {
       osworld: ['Oswald','sans-serif'],
       bebas: ['Bebas Neue','san-serifs']
