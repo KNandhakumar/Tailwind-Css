@@ -1,0 +1,15 @@
+1. First run this comment in terminal - npm install -D tailwindcss;
+
+2. then run this command -  npx tailwindcss init
+
+3. add this coe in tailwind.config.ts - content: ["./src/**/*.{html,js}"];
+
+4.create input.css file then add this code - @tailwind base;@tailwind components;@tailwind utilities;
+
+5.run this command in terminal - npx tailwindcss -i ./src/input.css -o ./src/output.css --watch
+
+6.add this link in your index.html - <link href="./output.css" rel="stylesheet">
+
+7.apply this code then run project check tailwind work or not - <h1 class="text-3xl font-bold underline">
+    Hello world!
+  </h1>
