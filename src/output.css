@@ -574,6 +574,18 @@ video {
   font-size: 1.25rem;
 }
 
+.text-3xl {
+  font-size: 1.953rem;
+}
+
 .font-bold {
   font-weight: 700;
+}
+
+.font-extrabold {
+  font-weight: 800;
+}
+
+.leading-7 {
+  line-height: 1.75rem;
 }
