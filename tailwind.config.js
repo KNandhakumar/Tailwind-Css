@@ -6,7 +6,8 @@ module.exports = {
   theme: {
     extend: {
       colors:{ // customize colors
-        'pure-red': '#ff0000'
+        'pure-red': '#ff0000',
+        'pure-blue' : '#00008B'
       }
     },
     fontFamily: {
