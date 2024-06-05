@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* extract components */
+@layer components{
+    .click-btn{
+        @apply text-xl bg-pure-red text-white p-2 rounded-md m-10 hover:bg-black hover:text-pure-red
+    }
+}
